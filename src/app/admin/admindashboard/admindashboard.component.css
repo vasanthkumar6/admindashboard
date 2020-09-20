@@ -1,0 +1,32 @@
+
+.navbar{
+    justify-content: center;
+  }
+  span{
+    padding-right:1rem ;
+  }
+  
+  .text-dark{
+    /* font-weight: bolder; */
+    font-size: 1rem ;
+    /* text-shadow:; */
+  
+  }
+  .hamburg{
+     font-size: 1.5rem;
+     color: dimgray;
+     /* font-weight: 600px; */
+  }
+
+  mat-sidenav-container{
+      height:100%;
+  }
+
+  mat-sidenav,mat-sidenav-content{
+      padding:16px;
+  }
+
+  mat-sidenav{
+      /* background-color:light; */
+      width: 200px;
+  }

@@ -1,0 +1,30 @@
+<!-- <p>admindashboard works!</p> -->
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="over" [(opened)]="opened" class="navbar">SideNav
+        <mat-nav-list>
+                <a  mat-list-item (click)="opened=!opened" class="text-dark  "  routerLink="profile"><i class="fa fa-pencil-square p-1" aria-hidden="true"></i>Profile</a>
+                <mat-divider></mat-divider>
+                <a  mat-list-item (click)="opened=!opened" class="text-dark  "routerLink="applications"><i class="fa fa-envelope p-1" aria-hidden="true"></i>Applications</a>
+                <mat-divider></mat-divider>
+                <!-- <a  mat-list-item (click)="opened=!opened" class="text-dark  "routerLink="shortlist"><i class="fa fa-envelope-open p-1" aria-hidden="true"></i>ShortList</a>
+                <mat-divider></mat-divider>
+                <a  mat-list-item (click)="opened=!opened" class="text-dark "routerLink="addAdmin"><i class="fa fa-user-plus p-1" aria-hidden="true"></i>AddAdmin</a>
+                <mat-divider></mat-divider>
+                <a  mat-list-item (click)="opened=!opened" class="text-dark "routerLink="careerJobs"><i class="fa fa-suitcase p-1" aria-hidden="true"></i>CareerJobs</a>
+                <mat-divider></mat-divider> -->
+
+        </mat-nav-list>
+    </mat-sidenav>
+    
+    <mat-sidenav-content>
+        <a (click)="opened=!opened"><i class="fa fa-bars pb-5 pl-2 hamburg"  aria-hidden="true"></i></a>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+<!-- 
+<mat-sidenav-container>
+<mat-sidenav opened>side nav</mat-sidenav>   
+<mat-sidenav-content>Main</mat-sidenav-content>   
+</mat-sidenav-container> -->

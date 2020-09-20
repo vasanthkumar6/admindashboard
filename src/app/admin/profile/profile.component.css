@@ -1,0 +1,7 @@
+/* 
+mat-tab-group{ height: 100%; } mat-tab-body-wrapper { flex-grow: 1; }
+
+mat-tab-body { display: flex !important; flex-direction: column; } */
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+    background-color:;
+}
